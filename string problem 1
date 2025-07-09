@@ -1,0 +1,42 @@
+# Problem Statement
+
+Write a program that takes a string as input and counts the total number of alphanumeric characters present in the string. If the input string is empty, return -1. Multiple occurrences of each alphanumeric character should be counted separately.
+
+
+
+Input Format
+
+The input consists of a single string str.
+
+
+Output Format
+
+Output a single integer representing the total count of alphanumeric characters.
+If the input string is empty, output -1.
+
+
+Example 1
+
+Sample Input 1
+
+Ram scored 91.62% in class 12 Board Exams.
+
+
+
+Sample Output 1
+
+32
+
+
+
+Explanation
+
+Total alphabetic characters: 26
+
+Total numeric characters: 6
+
+
+
+
+
+Total alphanumeric characters: 26 + 6 = 32
