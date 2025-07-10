@@ -1,0 +1,133 @@
+# List in Python
+A list is a built-in Python data structure used to store multiple items in a single variable.
+Lists are ordered, mutable, and allow duplicate values.
+my_list = [1, 2, 3, 4]
+
+# How to Create a List
+1. Using Square Brackets []:
+fruits = ["apple", "banana", "cherry"]
+
+2. Using the list() Constructor:
+numbers = list((1, 2, 3, 4))
+
+3. Empty List:
+empty = []
+
+# Data Types Allowed in a List
+Lists can hold any type of objects:
+mixed = [1, "hello", 3.14, True, [2, 4], {"a": 1}]
+
+# Accessing List Elements
+1. By Index:
+fruits = ["apple", "banana", "cherry"]
+print(fruits[1])  # Output: banana
+
+2. Negative Indexing:
+print(fruits[-1])  # Output: cherry
+
+# List Slicing
+numbers = [10, 20, 30, 40, 50]
+print(numbers[1:4])    # Output: [20, 30, 40]
+print(numbers[:3])     # Output: [10, 20, 30]
+print(numbers[2:])     # Output: [30, 40, 50]
+
+# List Modification
+Change Value:
+fruits[1] = "blueberry"
+
+Add Elements:
+fruits.append("orange")
+fruits.insert(1, "mango")
+
+Remove Elements:
+fruits.remove("apple")
+fruits.pop(1)
+del fruits[0]
+
+# List Operators
+Operator	Description
++      =	Concatenation
+*      =	Repetition
+in     =	Membership test
+not in =	Membership test
+len()  =	Returns number of items in list
+Examples:
+[1, 2] + [3, 4]        # [1, 2, 3, 4]
+[1] * 3               # [1, 1, 1]
+3 in [1, 2, 3]        # True
+len([1, 2, 3])        # 3
+
+# List Methods
+Method	Description
+append(x)    = 	Add item to end
+insert(i, x) =	Insert item at index
+extend(iter) =	Extend list with another iterable
+remove(x)	   =  Remove first occurrence of value
+pop([i])	   =  Remove item at index (or last)
+clear()      = 	Remove all elements
+index(x)	   =  Return index of first value
+count(x)	   =  Count occurrences
+sort()	     =  Sort list (ascending by default)
+reverse()	   =  Reverse the list
+copy()	     =  Return a shallow copy
+Examples:
+fruits = ['banana', 'apple', 'cherry']
+fruits.sort()           # ['apple', 'banana', 'cherry']
+fruits.reverse()        # ['cherry', 'banana', 'apple']
+
+# Built-in Functions Useful with Lists
+Function	Description
+len()    =	Number of elements
+min()	   =  Minimum element
+max()	   =  Maximum element
+sum()	   =  Sum of elements
+sorted() = 	Return sorted list (not in-place)
+
+# Looping Through a List
+for item in fruits:
+    print(item)
+# With index
+for i in range(len(fruits)):
+    print(i, fruits[i])
+
+# List Comprehension
+A short way to create lists using loops.
+squares = [x**2 for x in range(5)]
+With condition:
+even = [x for x in range(10) if x % 2 == 0]
+
+# Nesting Lists (2D Lists)
+matrix = [[1, 2], [3, 4], [5, 6]]
+print(matrix[1][0])  # Output: 3
+
+# Keywords Related to Lists
+There are no list-specific keywords, but these are often used in context:
+for
+in
+not
+del
+is
+if, else, elif
+range()
+
+# Copying Lists
+1. Shallow Copy
+a = [1, 2, 3]
+b = a.copy()
+
+2. Deep Copy (for nested structures)
+import copy
+b = copy.deepcopy(a)
+
+#Clearing a List
+my_list.clear()
+
+#Deleting a List
+del my_list
+
+#Unpacking Lists
+a, b, c = [1, 2, 3]
+With *:
+a, *rest = [1, 2, 3, 4]  # a=1, rest=[2,3,4]
+
+
