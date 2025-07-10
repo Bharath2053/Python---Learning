@@ -61,6 +61,17 @@ Explanation
 After arranging the given numbers in increasing order, the array comes out to be as 2, 3, 4, 5, 6, 7.
 As all the numbers in the array are consecutive, therefore 1 is returned.
 # Code:
+n= int(input())
+m = list(map(int, input().split()))
+a = sorted(m)
+for i in range(len(a)):
+    if a[i] + 1 == a[i + 1]:
+        print(1)
+        break
+    else:
+        print(0)
+        break
+    
 
 
 
