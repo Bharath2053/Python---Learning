@@ -1,0 +1,14 @@
+# List in Python
+A list is a built-in Python data structure used to store multiple items in a single variable.
+Lists are ordered, mutable, and allow duplicate values.
+my_list = [1, 2, 3, 4]
+
+# How to Create a List
+1. Using Square Brackets []:
+fruits = ["apple", "banana", "cherry"]
+
+2. Using the list() Constructor:
+numbers = list((1, 2, 3, 4))
+
+3. Empty List:
+empty = []
