@@ -1,0 +1,8 @@
+#What is a Dictionary in Python?
+A dictionary is an unordered, mutable collection of key-value pairs. Each key must be unique and immutable (like a string, number, or tuple), and each key maps to a value.
+#Key Features:
+Mutable: You can add, update, or remove items.
+Unordered (prior to Python 3.7): In versions before Python 3.7, dictionaries don't maintain insertion order. From Python 3.7 onward, they preserve insertion order.
+Key-value pairs: Data is stored in pairs, like {"name": "Alice"}.
+Keys must be unique and immutable (e.g., strings, numbers, tuples).
+Values can be of any type, including lists, other dictionaries, etc
