@@ -1,0 +1,8 @@
+# What is Tuple in Python:
+A tuple in Python is an ordered, immutable collection of items. Tuples are similar to lists, but unlike lists, tuples cannot be changed (they are immutable) after they are created.
+Key Features of Tuples:
+Ordered: Elements have a defined order and can be accessed by index.
+Immutable: You cannot add, remove, or change elements after creation.
+Can contain mixed data types: Integers, strings, lists, other tuples, etc.
+Allow duplicates: The same value can appear more than once.
+
